@@ -1,0 +1,348 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/Application/application/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "https": null,
+          "Host": "sga-applicationprd.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/application/{method}",
+      "Key": "application"
+    },
+    {
+      "UpstreamPathTemplate": "/Application/ApplicationGroup/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-applicationprd.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/ApplicationGroup/{method}",
+      "Key": "ApplicationGroup"
+    },
+    {
+      "UpstreamPathTemplate": "/Application/GroupMenu/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-applicationprd.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/GroupMenu/{method}",
+      "Key": "ApplicationGroupMenu"
+
+    },
+    {
+      "UpstreamPathTemplate": "/Application/Module/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-applicationprd.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Module/{method}",
+      "Key": "Module"
+    },
+
+    {
+      "UpstreamPathTemplate": "/Application/Permit/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-applicationprd.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Permit/{method}",
+      "Key": "Permit"
+    },
+    {
+      "UpstreamPathTemplate": "/Application/Request/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-applicationprd.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Request/{method}",
+      "Key": "Request"
+    },
+    {
+      "UpstreamPathTemplate": "/Application/ApplicationMenu/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-applicationprd.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/ApplicationMenu/{method}",
+      "Key": "ApplicationMenu"
+    },
+    {
+      "UpstreamPathTemplate": "/Application/Status/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-applicationprd.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Status/{method}",
+      "Key": "Status"
+    },
+    {
+      "UpstreamPathTemplate": "/Application/RequestStatus/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-applicationprd.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/RequestStatus/{method}",
+      "Key": "RequestStatus"
+    },
+    {
+      "UpstreamPathTemplate": "/Application/TypeRequest/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-applicationprd.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/TypeRequest/{method}",
+      "Key": "TypeRequest"
+    },
+    {
+      "UpstreamPathTemplate": "/Application/TypePermit/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-applicationprd.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/TypePermit/{method}",
+      "Key": "TypePermit"
+    },
+    {
+      "UpstreamPathTemplate": "/Security/AccessControl/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-securityconfigurationprod.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/AcessControl/{method}",
+      "Key": "AccessControl"
+    },
+    {
+      "UpstreamPathTemplate": "/Security/Application/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-securityconfigurationprod.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Application/{method}",
+      "Key": "Application"
+    },
+    {
+      "UpstreamPathTemplate": "/Security/Area/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-securityconfigurationprod.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Area/{method}",
+      "Key": "Area"
+    },
+    {
+      "UpstreamPathTemplate": "/Security/DataLoad/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-securityconfigurationprod.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/DataLoad/{method}",
+      "Key": "DataLoad"
+    },
+    {
+      "UpstreamPathTemplate": "/Security/Function/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-securityconfigurationprod.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Function/{method}",
+      "Key": "Function"
+    },
+    {
+      "UpstreamPathTemplate": "/Security/Session/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-securityconfigurationprod.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Session/{method}",
+      "Key": "Session"
+    },
+    {
+      "UpstreamPathTemplate": "/Security/Status/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-securityconfigurationprod.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Status/{method}",
+      "Key": "Status"
+    },
+    {
+      "UpstreamPathTemplate": "/Security/User/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-securityconfigurationprod.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/User/{method}",
+      "Key": "User"
+    },
+    {
+      "UpstreamPathTemplate": "/Security/UserException/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-securityconfigurationprod.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/UserException/{method}",
+      "Key": "UserException"
+    },
+    {
+      "UpstreamPathTemplate": "/Security/UserType/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-securityconfigurationprod.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/UserType/{method}",
+      "Key": "UserType"
+    },
+    {
+      "UpstreamPathTemplate": "/Security/UserRole/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-securityconfigurationprod.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/UserRole/{method}",
+      "Key": "UserRole"
+    },
+
+    {
+      "UpstreamPathTemplate": "/Security/Management/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-securityconfigurationprod.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Management/{method}",
+      "Key": "Management"
+    },
+    {
+      "UpstreamPathTemplate": "/Security/Report/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-securityconfigurationprod.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Report/{method}",
+      "Key": "Report"
+    },
+    {
+      "UpstreamPathTemplate": "/Security/ApplicationRole/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-securityconfigurationprod.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/ApplicationRole/{method}",
+      "Key": "Report"
+    },
+    {
+      "UpstreamPathTemplate": "/Security/ApplicationProfile/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-securityconfigurationprod.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/ApplicationProfile/{method}",
+      "Key": "ApplicationProfile"
+    },
+    {
+      "UpstreamPathTemplate": "/Security/RoleProfile/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-securityconfigurationprod.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/RoleProfile/{method}",
+      "Key": "ApplicationProfile"
+    },
+    {
+      "UpstreamPathTemplate": "/Security/ProfilePermission/{method}",
+      "upstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "sga-securityconfigurationprod.hcsd.co",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/api/ProfilePermission/{method}",
+      "Key": "ApplicationProfile"
+    }
+
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:44338"
+  }
+}
